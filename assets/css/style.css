@@ -66,7 +66,6 @@
 	align-items: center;
 	background-color:pink;
 	
-	
 }
 
 
@@ -83,4 +82,32 @@ h3{
 .dias-tempo, .horas-tempo, .minutos-tempo, .segundos-tempo {
 	font-size: 1.6rem;
 	padding:10px;
+}
+
+.grid-prod1 {
+	display:flex;
+	grid-column: 1/2;
+	grid-row:2/3;
+	background-color: blue;
+}
+
+.grid-prod2 {
+	display:flex;
+	grid-column: 2/3;
+	grid-row:2/3;
+	background-color: red;
+}
+
+.grid-prod3 {
+	display:flex;
+	grid-column: 3/4;
+	grid-row:2/3;
+	background-color: green;
+}
+
+.grid-prod4 {
+	display:flex;
+	grid-column: 4/5;
+	grid-row:2/3;
+	background-color: yellow;
 }
