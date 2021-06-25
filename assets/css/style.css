@@ -1,0 +1,55 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	color: rgb(240,240,240);
+}
+
+
+.container {
+	font-family: 'Dela Gothic One', cursive;
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	height:70px;
+	background-color: #171717;
+	padding: 30px;
+
+}
+
+.logo {
+	height:50px;
+}
+
+.nav-link {
+	display:flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.nav-link a {
+	text-decoration: none;
+	display:block;
+	padding:20px;
+
+}
+
+.nav-link a:hover {
+	background: rgba(100,100,100,0.5);
+	transition: 0.8s;
+
+}
+
+.conteudo {
+	height: 100vh;
+	background-color:rgb(230,230,230);
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-1 {
+	grid-column: 1/5;
+	grid-row: 1/2;
+	background-color: gray;
+}
