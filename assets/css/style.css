@@ -14,7 +14,11 @@
 	height:70px;
 	background-color: #171717;
 	padding: 30px;
+}
 
+img {
+	max-width: 100%;
+	display:block;
 }
 
 .logo {
@@ -45,7 +49,8 @@
 	background-color:rgb(230,230,230);
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 2fr 1fr 2fr;
+	grid-gap: 1rem;
 }
 
 .grid-timer {
@@ -111,3 +116,5 @@ h3{
 	grid-row:2/3;
 	background-color: yellow;
 }
+
+
